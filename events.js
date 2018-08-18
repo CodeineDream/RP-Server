@@ -5,6 +5,6 @@ mp.events.add("playerJoin", (player) => {
 });
 
 mp.events.add('playerDeath', (player) => {
-	player.spawn(spawnPoints[Math.floor(Math.random()*spawnPoints.length)]);
+	player.spawn(new mp.Vector3(1841.584,3668.582,33.680));
 	player.health = 100;
 	});
